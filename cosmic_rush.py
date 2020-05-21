@@ -20,6 +20,6 @@ class MyGame(arcade.Window):
         arcade.start_render()
 
 
-arcade.Window()
+arcade.Window(title="Cosmic Rush")
 # Keep the window open for 5 seconds, as a placeholder
 time.sleep(5)
